@@ -21,6 +21,10 @@ import Github, { gitHubInfoLoader } from './components/Github/Github.jsx'
 // ]);
 
 //loader s hover krne pr github pr useEffect s bhi tej fetch hota hai hover pr hi fecth start hojata hai data ko cache m rkh leta hai....
+
+// path:"*" isme koi bhi path dala jo define nahi krta us case m ye chl jayga
+
+// <Route index element={<Home />} />  default path hota hai 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
